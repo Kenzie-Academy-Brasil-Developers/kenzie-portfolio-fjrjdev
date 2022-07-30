@@ -24,26 +24,25 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
       <Header>
         <Container>
           <HeaderContent>
-            <Text as="h1" type="heading1" color="grey5">
+            <Text as="h1" type="heading1" color="brand1">
               Criando experiências por meio da tecnologia{" "}
             </Text>
-            <Text type="body1" color="grey6">
+            <Text type="body1" color="brand1">
               Sou estudante de programação na Kenzie Academy Brasil, participei
               de diversos projetos resolvendo problemas de alto nível e
               desenvolvendo habilidades
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projetos">
+              <Button as="a" href="#projetos" color="grey6" type="primary">
                 Projetos
               </Button>
-              <Button as="a" href="#tecnologias" type="btLink" color="grey5">
+              <Button as="a" href="#tecnologias" type="btLink" color="grey1">
                 Tecnologias
               </Button>
             </HeaderButtonsArea>

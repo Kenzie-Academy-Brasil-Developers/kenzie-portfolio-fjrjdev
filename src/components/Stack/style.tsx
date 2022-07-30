@@ -3,7 +3,7 @@ import { keyframes } from "@stitches/react";
 import { Text } from "../../styles/Text";
 
 const scaleUp = keyframes({
-  "0%": { transform: "translateY(15%)" },
+  "0%": { transform: "translateY(-15%)" },
   "100%": { transform: "translateY(-140%)" },
 });
 
