@@ -34,7 +34,6 @@ export const stackData = [
     title: "Node JS",
     img: imgNode,
   },
-
   { title: "Git", img: SiGit },
   { title: "GitHub", img: SiGithub },
 ];

@@ -55,7 +55,7 @@ export const Home = (): JSX.Element => {
             Ferramentas que domino
           </Text>
           <StackCards>
-            {stackData.map((stack, index) => (
+            {stackData?.map((stack: any, index) => (
               <Stack key={index} title={stack.title} icon={stack.img} />
             ))}
           </StackCards>
